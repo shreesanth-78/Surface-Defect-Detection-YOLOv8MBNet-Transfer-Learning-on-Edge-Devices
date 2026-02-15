@@ -193,7 +193,7 @@ Conclusion: Structural optimization outperforms naive compression.
 
 ## ⚡ NVIDIA Jetson Orin Nano
 
-![Jetson Results](images/jetson orin results.png)
+![Jetson Results](images/jetson_orin_results.png)
 
 | Model | Size (MB) | FPS | Inference Time (ms) | GFLOPs | Temp (°C) | RAM (%) | Power |
 |-------|-----------|-----|---------------------|--------|-----------|----------|--------|
