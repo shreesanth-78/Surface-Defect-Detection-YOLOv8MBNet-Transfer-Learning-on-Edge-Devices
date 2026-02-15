@@ -34,7 +34,7 @@ The baseline YOLOv8 architecture was modified by:
 
 ### Architecture Diagram
 
-![Architecture](report/images/architecture.png)
+![Architecture](images/architecture.png)
 
 ---
 
@@ -55,7 +55,7 @@ The baseline YOLOv8 architecture was modified by:
 
 # 📈 Precision–Recall Analysis
 
-![PR Curve](report/images/pr_curve.png)
+![PR Curve](images/pr_curve.png)
 
 All defect classes achieve near-perfect recall with high precision, resulting in 0.986 mAP@0.5.
 
@@ -63,7 +63,7 @@ All defect classes achieve near-perfect recall with high precision, resulting in
 
 # 📊 Confusion Matrix
 
-![Confusion Matrix](report/images/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 The confusion matrix demonstrates strong class separation with minimal misclassification between structurally similar defect categories.
 
@@ -111,10 +111,29 @@ Classes:
 
 # ⚡ Edge Deployment
 
-## Raspberry Pi 5 (CPU)
+---
 
-- ONNX optimized inference
-- Stable real-time performance
+# 🍓 Raspberry Pi 5 – CPU Benchmark Results
+
+The proposed YOLOv8-MBNet model was evaluated on Raspberry Pi 5 (CPU-only execution).
+
+### Inference Benchmark
+
+![Raspberry Pi Results](images/raspberry_pi_results.png)
+
+| Model | Size (MB) | FPS | Inference Time (ms) | GFLOPs | Temp (°C) | RAM (%) |
+|-------|-----------|-----|---------------------|--------|-----------|----------|
+| PyTorch (CPU) | 2.40 | 3.67 | 272.67 | 5.1 | 60.9 | 23.5 |
+| ONNX (CPU) | 4.31 | 10.43 | 95.89 | 5.1 | 63.7 | 23.8 |
+
+### Observations
+
+- ONNX optimization improved inference speed by ~2.8×.
+- Thermal behavior remained stable under continuous inference.
+- Model maintains lightweight computational footprint (5.1 GFLOPs).
+
+This validates the framework’s suitability for edge AI deployment in industrial environments.
+
 
 ## NVIDIA Jetson Orin Nano
 
