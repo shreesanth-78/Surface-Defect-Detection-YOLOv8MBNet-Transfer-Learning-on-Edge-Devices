@@ -241,13 +241,14 @@ Edge Devices:
 git clone https://github.com/shreesanth-78/Surface-Defect-Detection-YOLOv8MBNet-Transfer-Learning-on-Edge-Devices.git
 cd Surface-Defect-Detection-YOLOv8MBNet-Transfer-Learning-on-Edge-Devices
 pip install -r requirements.txt
-📄 Technical Report
+```
+# 📄 Technical Report
 
 Full project report available in:
 
 report/YOLOV8_OS_Project_Report.pdf
 
-#📌 Future Work
+# 📌 Future Work
 
 Quantization-aware training
 
@@ -259,6 +260,6 @@ Semi-supervised learning
 
 Edge TPU optimization
 
-#👨‍💻 Author
+# 👨‍💻 Author
 **Shree Santh B, Kirupashankar Chockkanathan, Padmacharan R, Prapanjan I**  
 *Amrita School of Artificial Intelligence, Coimbatore, Amrita Vishwa Vidyapeetham, India*
