@@ -247,7 +247,7 @@ Full project report available in:
 
 report/YOLOV8_OS_Project_Report.pdf
 
-📌 Future Work
+#📌 Future Work
 
 Quantization-aware training
 
@@ -259,8 +259,6 @@ Semi-supervised learning
 
 Edge TPU optimization
 
-👨‍💻 Author
-
-Shree Santh B
-Artificial Intelligence & Data Science
-Amrita School of Artificial Intelligence
+#👨‍💻 Author
+**Shree Santh B, Kirupashankar Chockkanathan, Padmacharan R, Prapanjan I**  
+*Amrita School of Artificial Intelligence, Coimbatore, Amrita Vishwa Vidyapeetham, India*
